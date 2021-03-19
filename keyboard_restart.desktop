@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=keyboard ON-OFF
+Icon=/home/origami/Pictures/keyboard/no_keyboard.png
+Exec=bash toggle_keyboard.sh
+Path=/home/origami/Pictures/keyboard
+NoDisplay=false
+Categories=Utility;
+StartupNotify=false
+Terminal=false
+Comment=
