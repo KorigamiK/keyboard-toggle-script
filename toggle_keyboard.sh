@@ -1,6 +1,6 @@
 #!/bin/bash
-Icon="/PATH/TO/ICON_ON"
-Icoff="/PATH_TO_ICON_OFF"
+Icon="/home/origami/Pictures/keyboard/keyboard.png"
+Icoff="/home/origami/Pictures/keyboard/no_keyboard.png"
 fconfig=".keyboard" 
 id=15
 
@@ -10,7 +10,7 @@ if [ ! -f $fconfig ];
         echo "enabled" > $fconfig
         var="enabled"
     else
-        read -r var< $fconfig
+        read -r var < $fconfig
         echo "keyboard is : $var"
 fi
 
